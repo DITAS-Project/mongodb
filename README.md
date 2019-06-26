@@ -1,7 +1,7 @@
 # DITAS SDK MongoDB instance
 
 ## Running instructions
-1. Create the following two paths on the host: `/mongo/data/db` and `/mongo/etc/mongo`.
+1. Create the two paths on the host, one for the data, and another one for the configuration. For example: `/mongo/data/db` and `/mongo/etc/mongo`.
 2. Inside the last path (`/mongo/etc/mongo/`) put the `mongodb.conf` file of this repo.
 3. Run the container setting a root username and password:
 
